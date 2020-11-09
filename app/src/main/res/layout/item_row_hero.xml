@@ -8,8 +8,9 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
     android:id="@+id/img_item_photo"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         tools:src="@android:color/darker_gray" />
@@ -35,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:maxLines="4"
             tools:text="@string/description" />
     </LinearLayout>
 
